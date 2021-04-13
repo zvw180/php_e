@@ -10,4 +10,4 @@ if ($connect->connect_errno){
     echo "yes";
 }
 
-?>
+
