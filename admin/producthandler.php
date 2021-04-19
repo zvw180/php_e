@@ -15,3 +15,4 @@ move_uploaded_file($file_tmp,$file_store);
 $sql="INSERT INTO products (name,price,pricture,description,category_id) VALUES ('$name','$price','$file_path','$description','$category')";
 $connect->query($sql);
 
+header('location:productsshow.php');
