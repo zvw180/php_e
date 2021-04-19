@@ -1,8 +1,11 @@
 <?php
-$host = "localhost";
+
+$host="localhost";
 $user="root";
-$password ="ptn141122";
+$password="";
 $dbname="phpstore";
+
 $connect=mysqli_connect($host,$user,$password,$dbname);
 
 
+?>
